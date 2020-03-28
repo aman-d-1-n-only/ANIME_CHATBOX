@@ -1,7 +1,7 @@
 <template>
   <div class="welcome ">
      <div class="container ">
-    <img class="anime" src="https://www.kindpng.com/picc/m/190-1908491_l-death-note-vs-l-in-death-note.png">
+    <img class="anime" src="@/assets/riyuzaki.png">
     </div>
    <div class="card">
      <div class="card-content center-align">
@@ -58,7 +58,7 @@ export default {
 }
 .welcome .container .anime{
   height:300px;
-  width:250px;
+  width:200px;
 }
 .welcome .card{
  
