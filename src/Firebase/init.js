@@ -1,7 +1,7 @@
 //install the firebase [npm install firebase --save] to intialize the app below and then import
 import firebase from 'firebase'
 //import firestore from firebase and exporting it below to use it in other vue component 
-import firebase from 'firebase/firestore'
+import firestore from 'firebase/firestore'
 
 
 
