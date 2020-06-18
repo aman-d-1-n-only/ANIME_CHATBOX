@@ -1,9 +1,9 @@
 <template>
-  <div class="welcome ">
-     <div class="container ">
-    <img class="anime" src="@/assets/riyuzaki.png">
-    </div>
-   <div class="card">
+  <div class="welcome container ">
+   <div class="anime">
+      <img class="anime" src="@/assets/riyuzaki.png">
+   </div>
+    <div class="card">
      <div class="card-content center-align">
       <h2 class="teal-text">Welcome</h2>
       <form @submit.prevent="enterChat">
@@ -52,17 +52,16 @@ export default {
 .welcome button{
   margin:30px auto;
 }
-.welcome .container{
-  margin-top:20px;
-  width:300px;
+
+.welcome .anime {
+   margin:0 auto;
+   width:200px;
+   height:300px
 }
-.welcome .container .anime{
-  height:300px;
-  width:200px;
-}
+
 .welcome .card{
  
    max-width: 500px;
-  margin-left:490px;
+  margin:0 auto;
 }
 </style>
